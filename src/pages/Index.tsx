@@ -29,6 +29,8 @@ const Index = () => {
     // Handle form submission here
   };
 
+  console.log("Index component is rendering");
+  
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
