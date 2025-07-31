@@ -12,25 +12,27 @@ type Language = 'ru' | 'en' | 'kz';
 
 const translations = {
   ru: {
-    badge: "Стратегия и Инновации",
-    intro: "Привет! Я Газиза Нуртуганова, менеджер по стратегии и инновациям из Лондона. Помогаю стартапам и компаниям достигать новых высот через стратегическое планирование и инновационные решения.",
-    servicesTitle: "Мои Услуги",
-    servicesSubtitle: "Предлагаю комплексные решения для развития вашего бизнеса",
-    service1Title: "Go-to-market стратегия",
-    service1Subtitle: "для стартапов",
-    service1Description: "Разработка комплексной стратегии выхода на рынок с учетом особенностей вашего продукта и целевой аудитории.",
-    service2Title: "Маркетинг и развитие",
-    service2Subtitle: "продаж",
-    service2Description: "Построение эффективных маркетинговых воронок и систем продаж для максимизации конверсии и роста выручки.",
-    service3Title: "Рост и масштабирование",
-    service3Subtitle: "продукта",
-    service3Description: "Оптимизация продуктовых процессов и создание стратегий масштабирования для устойчивого долгосрочного роста.",
-    testimonialsTitle: "Отзывы Клиентов",
-    testimonialsSubtitle: "Что говорят о моей работе",
-    testimonial1: "Отличный специалист, рекомендую! Газиза помогла нам разработать стратегию выхода на новый рынок.",
-    testimonial2: "Очень доволен работой, всё быстро и качественно. Результаты превзошли ожидания.",
-    contactTitle: "Связаться со мной",
-    contactSubtitle: "Готов обсудить ваш проект и найти лучшие решения",
+    heroTitle: "Ваша карьера — это не путь, который вы находите.",
+    heroSubtitle: "Это мир, который вы строите.",
+    heroDescription: "Я помогаю амбициозным основателям и профессионалам перестать искать «правильную» роль и начать строить жизнь и бизнес, верные их собственной истории.",
+    heroButton: "Узнайте, как я помогаю",
+    aboutTitle: "Обо мне",
+    aboutIntro: "Консультант из Лондона, помогающий основателям стартапов с go-to-market стратегией, ростом и развитием бизнеса. Мой опыт охватывает корпоративные инновации в банковской сфере (ЕБРР, LBG), маркетинг и развитие бизнеса в топ-консалтинговых фирмах (PWC), и AI продуктовую стратегию и GTM в ранних технологических стартапах (Cresta AI). Я соединяю миры традиционных институтов и гибкости Кремниевой долины.",
+    aboutStoryTitle: "Мой путь не был прямой линией. Он был выкован на четырех континентах.",
+    aboutStory: "Всё началось с билета в одну сторону из моего дома в Казахстане в Лондон, без страховки и с мечтой построить жизнь на собственных условиях. Этот первый прыжок научил меня всему о стойкости, адаптации и искусстве строительства мира с нуля. Этот компас привёл меня к руководству маркетингом в Нигерии, к получению MBA от MIT в Бостоне, и к работе с передовыми AI стартапами в Кремниевой долине. После лет глобальных приключений я оказалась обратно в корпоративном мире. Несмотря на успех на бумаге, я чувствовала глубокое разобщение. Я поняла, что конечный риск — это не выход на свой собственный путь; это потеря себя, оставаясь в месте, где ты не принадлежишь. Этот момент стал катализатором для окончательной интеграции всех частей моей истории в единую, объединённую миссию: помочь другим строить свои собственные миры.",
+    servicesTitle: "Как мы можем работать вместе",
+    servicesSubtitle: "Я выступаю в качестве вашего дробного стратегического партнёра, привнося строгость топ-консультанта и гибкость стартап-оператора для решения ваших самых критических вызовов.",
+    service1Title: "Для основателей и стартапов на ранней стадии",
+    service1Description: "Я помогаю вам преодолеть разрыв между видением и исполнением. Мой фокус на построении надёжных, клиентоориентированных стратегий, которые стимулируют рост, включая Go-to-Market стратегию, поддержку маркетинга и продаж, и масштабируемое планирование бизнеса и операций.",
+    service2Title: "Для устоявшихся компаний и консалтинговых фирм",
+    service2Description: "Я предоставляю экспертную поддержку по запросу для проектов, требующих уникального сочетания стратегического понимания и практического исполнения, особенно в областях трансформации бизнеса, картирования клиентского пути и финтех инноваций.",
+    testimonialsTitle: "Что говорят мои клиенты и коллеги",
+    testimonial1: "«У Газизы редкая способность видеть как большую стратегическую картину, так и тонкие операционные детали, необходимые для выполнения работы. Её глобальная перспектива была неоценима.»",
+    testimonial2: "«Работа с Газизой была мастер-классом ясности. Она помогла нам разобрать сложную проблему и построить план выхода на рынок, который дал уверенность всей нашей команде.»",
+    insightsTitle: "Последние идеи",
+    contactTitle: "Готовы построить свой план?",
+    contactDescription: "Если моя история резонирует с вами, и вы готовы построить бизнес, который одновременно влиятелен и аутентичен, я приглашаю вас связаться. Давайте начнём с бесплатного 30-минутного ознакомительного звонка, чтобы изучить, как я могу помочь вам в вашем пути.",
+    contactButton: "Забронируйте бесплатный ознакомительный звонок",
     nameLabel: "Имя",
     emailLabel: "Email",
     phoneLabel: "Телефон",
@@ -40,28 +42,30 @@ const translations = {
     phonePlaceholder: "+7 (xxx) xxx-xx-xx",
     messagePlaceholder: "Расскажите о вашем проекте...",
     sendButton: "Отправить сообщение",
-    footerTagline: "Стратегия и инновации для вашего успеха"
+    footerTagline: "© 2024 Газиза Нуртуганова. Все права защищены."
   },
   en: {
-    badge: "Strategy and Innovation",
-    intro: "Hi! I'm Gaziza Nurtuganova, a strategy and innovation manager from London. I help startups and companies reach new heights through strategic planning and innovative solutions.",
-    servicesTitle: "My Services",
-    servicesSubtitle: "Offering comprehensive solutions for your business development",
-    service1Title: "Go-to-market strategy",
-    service1Subtitle: "for startups",
-    service1Description: "Development of comprehensive market entry strategies tailored to your product features and target audience.",
-    service2Title: "Marketing and sales",
-    service2Subtitle: "development",
-    service2Description: "Building effective marketing funnels and sales systems to maximize conversion and revenue growth.",
-    service3Title: "Product growth",
-    service3Subtitle: "and scaling",
-    service3Description: "Optimizing product processes and creating scaling strategies for sustainable long-term growth.",
-    testimonialsTitle: "Client Testimonials",
-    testimonialsSubtitle: "What people say about my work",
-    testimonial1: "Excellent specialist, highly recommend! Gaziza helped us develop a strategy for entering a new market.",
-    testimonial2: "Very satisfied with the work, everything was fast and high-quality. Results exceeded expectations.",
-    contactTitle: "Contact Me",
-    contactSubtitle: "Ready to discuss your project and find the best solutions",
+    heroTitle: "Your Career Isn't a Path You Find.",
+    heroSubtitle: "It's a World You Build.",
+    heroDescription: "I help ambitious founders and professionals stop searching for the \"right\" role and start building a life and business true to their own story.",
+    heroButton: "Discover How I Help",
+    aboutTitle: "About Me",
+    aboutIntro: "London-based consultant helping startup founders with go-to-market strategy, growth, and business development. My background spans corporate innovation in banking (EBRD, LBG), marketing and business development in top consulting firms (PWC), and AI Product Strategy & GTM at early-stage tech startups (Cresta AI). I bridge the worlds of traditional institutions and Silicon Valley agility.",
+    aboutStoryTitle: "My journey wasn't a straight line. It was forged across four continents.",
+    aboutStory: "It started with a one-way ticket from my home in Kazakhstan to London, with no safety net and a dream of building a life on my own terms. That first leap taught me everything about resilience, adaptation, and the art of building a world from scratch. That compass led me to lead marketing in Nigeria, to earn an MBA from MIT in Boston, and to work with cutting-edge AI startups in Silicon Valley. After years of global adventures, I found myself back in the corporate world. Despite the success on paper, I felt a deep disconnect. I realized the ultimate risk isn't venturing out on your own; it's losing yourself by staying in a place you don't belong. That moment was the catalyst to finally integrate all the pieces of my story into a single, unified mission: to help others build their own worlds.",
+    servicesTitle: "How We Can Work Together",
+    servicesSubtitle: "I act as your fractional strategy partner, bringing the rigor of a top-tier consultant and the agility of a startup operator to solve your most critical challenges.",
+    service1Title: "For Early-Stage Founders & Startups",
+    service1Description: "I help you bridge the gap between vision and execution. My focus is on building robust, customer-centric strategies that drive growth, including Go-to-Market Strategy, Marketing & Sales Enablement, and scalable Business & Operations Planning.",
+    service2Title: "For Established Companies & Consulting Firms",
+    service2Description: "I provide on-demand, expert support for projects requiring a unique blend of strategic insight and hands-on execution, particularly in areas of business transformation, customer journey mapping, and fintech innovation.",
+    testimonialsTitle: "What My Clients & Colleagues Say",
+    testimonial1: "\"Gaziza has a rare ability to see both the big strategic picture and the fine operational details needed to get things done. Her global perspective was invaluable.\"",
+    testimonial2: "\"Working with Gaziza was a masterclass in clarity. She helped us deconstruct a complex problem and build a go-to-market plan that gave our entire team confidence.\"",
+    insightsTitle: "Latest Insights",
+    contactTitle: "Ready to Build Your Blueprint?",
+    contactDescription: "If my story resonates and you're ready to build a business that is both impactful and authentic, I invite you to connect. Let's start with a complimentary 30-minute discovery call to explore how I can help you on your journey.",
+    contactButton: "Book Your Free Discovery Call",
     nameLabel: "Name",
     emailLabel: "Email",
     phoneLabel: "Phone",
@@ -71,28 +75,30 @@ const translations = {
     phonePlaceholder: "+44 (xxx) xxx-xxxx",
     messagePlaceholder: "Tell me about your project...",
     sendButton: "Send Message",
-    footerTagline: "Strategy and innovation for your success"
+    footerTagline: "© 2024 Gaziza Nurtuganova. All Rights Reserved."
   },
   kz: {
-    badge: "Стратегия және Инновация",
-    intro: "Сәлем! Мен Газиза Нұртұғанова, Лондондағы стратегия және инновация менеджерімін. Стартаптар мен компанияларға стратегиялық жоспарлау және инновациялық шешімдер арқылы жаңа биіктерге жетуге көмектесемін.",
-    servicesTitle: "Менің Қызметтерім",
-    servicesSubtitle: "Бизнесіңізді дамыту үшін кешенді шешімдер ұсынамын",
-    service1Title: "Нарыққа шығу стратегиясы",
-    service1Subtitle: "стартаптар үшін",
-    service1Description: "Өніміңіздің ерекшеліктері мен мақсатты аудиторияны ескере отырып, нарыққа шығудың кешенді стратегиясын әзірлеу.",
-    service2Title: "Маркетинг және сату",
-    service2Subtitle: "дамыту",
-    service2Description: "Конверсияны және кіріс өсімін максималды арттыру үшін тиімді маркетингтік воронкалар мен сату жүйелерін құру.",
-    service3Title: "Өнімнің өсуі",
-    service3Subtitle: "және масштабтау",
-    service3Description: "Тұрақты ұзақ мерзімді өсу үшін өнім процестерін оңтайландыру және масштабтау стратегияларын жасау.",
-    testimonialsTitle: "Клиенттердің Пікірлері",
-    testimonialsSubtitle: "Менің жұмысым туралы не дейді",
-    testimonial1: "Керемет маман, ұсынамын! Газиза бізге жаңа нарыққа шығу стратегиясын әзірлеуге көмектесті.",
-    testimonial2: "Жұмыстан өте риза, бәрі жылдам және сапалы. Нәтижелер күткеннен де асып түсті.",
-    contactTitle: "Менімен Байланысу",
-    contactSubtitle: "Жобаңызды талқылауға және ең жақсы шешімдерді табуға дайынмын",
+    heroTitle: "Сіздің мансабыңыз сіз тапқан жол емес.",
+    heroSubtitle: "Бұл сіз құратын әлем.",
+    heroDescription: "Мен амбициялы негізгі құрушылар мен мамандарға \"дұрыс\" рөлді іздеуді тоқтатып, өз тарихына сай өмір мен бизнес құруға көмектесемін.",
+    heroButton: "Мен қалай көмектесетінімді біліңіз",
+    aboutTitle: "Мен туралы",
+    aboutIntro: "Лондонда тұратын консультант, стартап негізгі құрушыларға go-to-market стратегиясы, өсу және бизнес дамыту бойынша көмектесемін. Менің тәжірибем банк саласындағы корпоративтік инновацияларды (ЕБДБ, LBG), топ-консалтинг фирмаларында маркетинг пен бизнес дамытуды (PWC), және ерте кезеңдегі технологиялық стартаптарда AI өнім стратегиясы мен GTM-ді (Cresta AI) қамтиды. Мен дәстүрлі институттар мен Кремний алқабының ептілігі әлемдерін байланыстырамын.",
+    aboutStoryTitle: "Менің жолым түзу сызық болған жоқ. Ол төрт континентте қалыптасты.",
+    aboutStory: "Бәрі Қазақстандағы үйімнен Лондонға бір жақты билетпен басталды, ешқандай қауіпсіздік торысыз және өз шарттарымда өмір құру арманымен. Сол алғашқы секіру маған төзімділік, бейімделу және нөлден әлем құру өнері туралы бәрін үйретті. Сол компас мені Нигерияда маркетингті басқаруға, Бостондағы MIT-тен MBA алуға және Кремний алқабындағы озық AI стартаптарымен жұмыс істеуге алып барды. Жылдар бойы жаһандық оқиғалардан кейін мен корпоративтік әлемге қайта оралдым. Қағазда табысқа қарамастан, мен терең ажырасуды сездім. Мен түпкілікті тәуекел жеке жолыңызға шығу емес екенін түсіндім; бұл сіз тиесілі емес жерде қалу арқылы өзіңізді жоғалту. Сол сәт менің тарихымның барлық бөліктерін бір, біртұтас миссияға түпкілікті интеграциялау үшін катализатор болды: басқаларға өз әлемдерін құруға көмектесу.",
+    servicesTitle: "Біз қалай бірге жұмыс істей аламыз",
+    servicesSubtitle: "Мен сіздің бөлшек стратегиялық серіктесіңіз ретінде әрекет етемін, топ деңгейдегі консультанттың қатаңдығы мен стартап операторының ептілігін сіздің ең критикалық міндеттеріңізді шешу үшін әкеліп отырмын.",
+    service1Title: "Ерте кезеңдегі негізгі құрушылар және стартаптар үшін",
+    service1Description: "Мен сізге көзқарас пен орындау арасындағы алшақтықты жоюға көмектесемін. Менің назарым өсуді ынталандыратын берік, клиентке бағытталған стратегияларды құруға, оның ішінде Go-to-Market стратегиясы, маркетинг пен сату қолдауы және масштабталатын бизнес пен операциялық жоспарлауға бағытталған.",
+    service2Title: "Орныққан компаниялар және консалтинг фирмалары үшін",
+    service2Description: "Мен стратегиялық түсіну мен практикалық орындаудың бірегей үйлесімін талап ететін жобалар үшін сұраныс бойынша сарапшы қолдауын ұсынамын, әсіресе бизнесті трансформациялау, клиент жолының картографиясы және финтех инновациялар салаларында.",
+    testimonialsTitle: "Менің клиенттерім мен әріптестерім не дейді",
+    testimonial1: "\"Газизада үлкен стратегиялық көріністі де, жұмысты орындау үшін қажетті нәзік операциялық мәліметтерді де көру қабілеті сирек кездеседі. Оның жаһандық көзқарасы бағаланбайтын болды.\"",
+    testimonial2: "\"Газизамен жұмыс істеу айқындық мастер-класы болды. Ол бізге күрделі мәселені талдауға және бүкіл командамызға сенімділік берген нарыққа шығу жоспарын құруға көмектесті.\"",
+    insightsTitle: "Соңғы идеялар",
+    contactTitle: "Өз жоспарыңызды құруға дайынсыз ба?",
+    contactDescription: "Егер менің тарихым сізбен дауыссыз болса және сіз әсер етуші де, түпнұсқа да болатын бизнес құруға дайын болсаңыз, мен сізді байланысуға шақырамын. Сіздің сапарыңызда мен қалай көмектесе алатынымды зерттеу үшін тегін 30 минуттық танысу қоңырауынан бастайық.",
+    contactButton: "Тегін танысу қоңырауын брондаңыз",
     nameLabel: "Аты",
     emailLabel: "Email",
     phoneLabel: "Телефон",
@@ -102,7 +108,7 @@ const translations = {
     phonePlaceholder: "+7 (xxx) xxx-xx-xx",
     messagePlaceholder: "Жобаңыз туралы айтыңыз...",
     sendButton: "Хабарлама жіберу",
-    footerTagline: "Сіздің табысыңыз үшін стратегия және инновация"
+    footerTagline: "© 2024 Газиза Нұртұғанова. Барлық құқықтар қорғалған."
   }
 };
 
@@ -167,17 +173,22 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge variant="secondary" className="mb-4 bg-white/10 text-white border-white/20">
-                {t.badge}
-              </Badge>
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Gaziza<br />
-                <span className="text-[hsl(var(--business-blue-dark))]">Nurtuganova</span>
+              <h1 className="text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+                {t.heroTitle}
               </h1>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight text-[hsl(var(--business-blue-dark))]">
+                {t.heroSubtitle}
+              </h2>
               <p className="text-xl mb-8 text-primary-foreground/90 leading-relaxed">
-                {t.intro}
+                {t.heroDescription}
               </p>
-              <div className="flex flex-col gap-3 text-primary-foreground/80">
+              <Button 
+                className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-3 text-lg"
+                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                {t.heroButton}
+              </Button>
+              <div className="flex flex-col gap-3 text-primary-foreground/80 mt-8">
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5" />
                   <span>London, UK</span>
@@ -202,27 +213,44 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* About Section */}
       <section className="py-20 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-8">{t.aboutTitle}</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+              {t.aboutIntro}
+            </p>
+            <h3 className="text-2xl font-semibold mb-6 italic">
+              {t.aboutStoryTitle}
+            </h3>
+            <p className="text-lg text-muted-foreground leading-relaxed text-left">
+              {t.aboutStory}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">{t.servicesTitle}</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               {t.servicesSubtitle}
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="group hover:shadow-[var(--shadow-elegant)] transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[hsl(var(--business-blue))] flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Target className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="text-2xl">{t.service1Title}</CardTitle>
-                <CardDescription>{t.service1Subtitle}</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground text-center">
+                <p className="text-muted-foreground">
                   {t.service1Description}
                 </p>
               </CardContent>
@@ -234,26 +262,10 @@ const Index = () => {
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="text-2xl">{t.service2Title}</CardTitle>
-                <CardDescription>{t.service2Subtitle}</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground text-center">
+                <p className="text-muted-foreground">
                   {t.service2Description}
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="group hover:shadow-[var(--shadow-elegant)] transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm">
-              <CardHeader className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[hsl(var(--business-blue))] flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Lightbulb className="w-8 h-8 text-white" />
-                </div>
-                <CardTitle className="text-2xl">{t.service3Title}</CardTitle>
-                <CardDescription>{t.service3Subtitle}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground text-center">
-                  {t.service3Description}
                 </p>
               </CardContent>
             </Card>
@@ -262,11 +274,10 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">{t.testimonialsTitle}</h2>
-            <p className="text-xl text-muted-foreground">{t.testimonialsSubtitle}</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -278,7 +289,7 @@ const Index = () => {
                   ))}
                 </div>
                 <blockquote className="text-lg mb-4 italic">
-                  "{t.testimonial1}"
+                  {t.testimonial1}
                 </blockquote>
                 <footer className="text-muted-foreground">— {language === 'en' ? 'Client A' : language === 'kz' ? 'Клиент А' : 'Клиент А'}</footer>
               </CardContent>
@@ -292,9 +303,53 @@ const Index = () => {
                   ))}
                 </div>
                 <blockquote className="text-lg mb-4 italic">
-                  "{t.testimonial2}"
+                  {t.testimonial2}
                 </blockquote>
                 <footer className="text-muted-foreground">— {language === 'en' ? 'Client B' : language === 'kz' ? 'Клиент Б' : 'Клиент Б'}</footer>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Insights Section */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">{t.insightsTitle}</h2>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="border-0 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
+              <CardContent className="p-6">
+                <div className="w-full h-48 bg-muted/50 rounded-lg mb-4 flex items-center justify-center">
+                  <Lightbulb className="w-12 h-12 text-muted-foreground" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Strategic Planning for Startups</h3>
+                <p className="text-muted-foreground mb-4">Essential frameworks for building go-to-market strategies that drive sustainable growth...</p>
+                <Button variant="ghost" className="p-0 h-auto text-primary">Read More</Button>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
+              <CardContent className="p-6">
+                <div className="w-full h-48 bg-muted/50 rounded-lg mb-4 flex items-center justify-center">
+                  <Globe className="w-12 h-12 text-muted-foreground" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Building Global Teams</h3>
+                <p className="text-muted-foreground mb-4">Lessons learned from managing diverse teams across four continents...</p>
+                <Button variant="ghost" className="p-0 h-auto text-primary">Read More</Button>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
+              <CardContent className="p-6">
+                <div className="w-full h-48 bg-muted/50 rounded-lg mb-4 flex items-center justify-center">
+                  <TrendingUp className="w-12 h-12 text-muted-foreground" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Scaling AI Products</h3>
+                <p className="text-muted-foreground mb-4">How to navigate the unique challenges of bringing AI solutions to market...</p>
+                <Button variant="ghost" className="p-0 h-auto text-primary">Read More</Button>
               </CardContent>
             </Card>
           </div>
@@ -306,9 +361,18 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">{t.contactTitle}</h2>
-            <p className="text-xl text-muted-foreground">
-              {t.contactSubtitle}
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              {t.contactDescription}
             </p>
+          </div>
+          
+          <div className="text-center mb-8">
+            <Button 
+              className="bg-[hsl(var(--business-blue))] hover:bg-[hsl(var(--business-blue-dark))] text-white px-8 py-3 text-lg"
+              onClick={() => window.open('mailto:gaziza.nurtuganova@sloan.mit.edu', '_blank')}
+            >
+              {t.contactButton}
+            </Button>
           </div>
           
           <Card className="border-0 shadow-[var(--shadow-card)]">
@@ -376,15 +440,36 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-12 px-4 bg-primary text-primary-foreground">
-        <div className="container mx-auto max-w-6xl text-center">
-          <h3 className="text-2xl font-bold mb-4">Gaziza Nurtuganova</h3>
-          <p className="text-primary-foreground/80 mb-6">
-            {t.footerTagline}
-          </p>
-          <div className="flex justify-center gap-6 text-sm text-primary-foreground/60">
-            <span>London, UK</span>
-            <span>+44 7565253222</span>
-            <span>gaziza.nurtuganova@sloan.mit.edu</span>
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold mb-4">Gaziza Nurtuganova</h3>
+            <div className="flex justify-center gap-6 text-sm text-primary-foreground/80 mb-4">
+              <span>London, UK</span>
+              <span>+44 7565253222</span>
+              <span>gaziza.nurtuganova@sloan.mit.edu</span>
+            </div>
+            <div className="flex justify-center gap-4 mb-4">
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-white/10"
+                onClick={() => window.open('https://linkedin.com', '_blank')}
+              >
+                LinkedIn
+              </Button>
+            </div>
+          </div>
+          <div className="text-center text-sm text-primary-foreground/60 border-t border-white/20 pt-6">
+            <p>{t.footerTagline}</p>
+            <div className="mt-2">
+              <Button
+                variant="ghost"
+                size="sm"
+                className="text-primary-foreground/60 hover:text-primary-foreground/80 h-auto p-0"
+              >
+                Privacy Policy
+              </Button>
+            </div>
           </div>
         </div>
       </footer>
